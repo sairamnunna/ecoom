@@ -63,7 +63,7 @@
     border-radius: 75px;
     color: #515151;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     background-color: white;
     cursor: pointer;
 }
@@ -92,7 +92,7 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 600px) {
 .navbar{
- /* display: none; */
+ display: none;
 }
 
 }
