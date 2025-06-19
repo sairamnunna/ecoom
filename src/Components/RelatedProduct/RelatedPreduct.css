@@ -21,3 +21,27 @@
     display: flex;
     gap: 30px;
 }
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .relatedproduct {
+    height: auto;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .relatedproduct h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .relatedproduct hr {
+    width: 100px;
+    height: 4px;
+  }
+
+  .relatedproduct-item {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+}

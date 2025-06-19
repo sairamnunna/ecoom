@@ -26,6 +26,7 @@
 
 .shop-category-indexsort p span{
   font-weight: 600;
+  
 }
 
 .shopcategory-products{
@@ -50,5 +51,49 @@
   
 }
 
+@media  screen and (min-width:300px) and (max-width: 600px) {
+  .shopcategory-banner {
+  width: 100%;
+  height: 210px; 
+  
+}
+.shopcategory-products{
+  margin: 20px 170px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+}
+.shopcategory-loadmore button{
+  width: 150px;
+  height: 40px;
+  font-size: 12px;
+  
+  
+}
+.shop-category-indexsort span{
+  font-weight: 500;
+  font-size: 12px;
+  
+}
+.shop-category-indexsort p {
+  font-weight: 500;
+  font-size: 10px;
+  
+}
+.shopcategory-sort{
+  padding: 0px 10px;
+  border-radius: 40px;
+  border: 1px solid #888;
+  font-size: 13px;
+}
+.shop-category-indexsort{
+  margin: 0px 0px;
+  
+  
+}
 
 
+}

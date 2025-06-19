@@ -24,10 +24,13 @@
     list-style: none;
     gap: 50px;
     color: #252525;
+      font-size: 20px;
+        cursor: pointer;
 }
-.fotter-links li{
-    cursor: pointer;
-}
+/* .fotter-links li{
+  
+  
+} */
 .fotter-social-icons{
     display: flex;
     gap: 20px;
@@ -58,4 +61,31 @@
     border-radius: 10px;
     height: 3px;
     background: #c7c7c7;
+}
+
+@media screen and (min-width:300px) and (max-width:600px)  {
+    .footer-logo img{
+    width: 20px;
+    height: 20px;
+}
+.footer-logo p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    gap:20px;
+}
+.fotter-icons-container img{
+    width: 15px;
+    height: 15px;
+    align-items: center;
+}
+.fotter-copyright{
+    font-size: 10px;
+}
+
 }
